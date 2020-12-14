@@ -463,3 +463,21 @@ header {
     display: none;
   }
 }
+@media screen and (max-width: 400px) {
+  .explore_new_content li {
+    padding: 7% 0;
+  }
+  .explore_new_content li a {
+    font-size: 1rem;
+  }
+  .shop_content li:nth-child(1) a {
+    font-size: 1.75rem;
+  }
+  .shop_content li {
+    list-style: none;
+    padding: 3% 0;
+  }
+  .collection_slide img {
+    width: 200px;
+  }
+}
